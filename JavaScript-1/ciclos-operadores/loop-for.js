@@ -1,5 +1,5 @@
 // for (variable; condición; incremento) {
-//   cÃ³digo a ejecutar
+//   código a ejecutar
 // }
 
 let list = ["eat", "sleep", "code", "repeat"];

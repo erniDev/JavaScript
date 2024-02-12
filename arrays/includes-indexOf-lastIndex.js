@@ -9,7 +9,8 @@ console.log(result1)
 const result2 = numbers.includes(8)
 console.log(result2)
 
-// indexOf()
+// indexOf() retorna el primer indice en el que se puede encontrar un elemento dado en el array, 
+//o retorna -1 si eñ elemento no esta presente
 
 const fruits = ['apple', 'cherry', 'grape', 'mango']
 
@@ -19,7 +20,9 @@ console.log(index1)
 const index2 = fruits.indexOf('blueberry')
 console.log(index2)
 
-// lastIndexOf()
+// lastIndexOf() retorna el ultimo indice en el que se puede encontrar un elemento dado en el array, 
+//o retorna -1 si eñ elemento no esta presente
+
 
 const numbersAgain = [2, 4, 6, 8, 10, 6]
 
@@ -29,7 +32,7 @@ console.log(lastIndex1)
 const lastIndex2 = numbersAgain.lastIndexOf(3)
 console.log(lastIndex2)
 
-// Exercise Â· Findind Substring Indices
+// Exercise  Finding Substring Indices
 
 const stringArray = ['apple', 'banana', 'orange', 'grape', 'banana', 'kiwi']
 const target = 'banana'

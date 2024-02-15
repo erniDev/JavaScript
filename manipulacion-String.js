@@ -24,7 +24,7 @@ console.log(saludo.indexOf('Como'))
 //Para saber cual es el indice de una palabra que no existe =-1
 console.log(saludo.indexOf('komo'))
 
-//Parqa saber cual es el ultimo indice de una letra
+//Para saber cual es el ultimo indice de una letra
 console.log(saludo.lastIndexOf('o'))
 
 //Para saber que letra hay entre 2 caracteres
